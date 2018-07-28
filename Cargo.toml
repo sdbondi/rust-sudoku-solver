@@ -1,0 +1,10 @@
+[package]
+name = "sudoku-solver"
+version = "0.1.0"
+authors = ["Stan Bondi <stan@fixate.it>"]
+
+[dependencies]
+piston = "0.37.0"
+piston_window = "0.80.0"
+pistoncore-sdl2_window = "0.50.0"
+piston2d-opengl_graphics = "0.53.0"

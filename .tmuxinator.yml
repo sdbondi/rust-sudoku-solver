@@ -1,0 +1,11 @@
+---
+name: sudoku-solver
+
+windows:
+- app:
+    root: <%= Dir.pwd %>
+    layout: tiled
+    panes:
+    - cargo watch -x run
+
+
