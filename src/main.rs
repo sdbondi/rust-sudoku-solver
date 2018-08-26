@@ -9,6 +9,7 @@ use sdl2_window::Sdl2Window;
 
 mod app;
 mod board;
+mod cell;
 
 const WINDOW_TITLE: &'static str = "Sudoku Solver";
 const WINDOW_SIZE: [u32; 2] = [800, 640];
