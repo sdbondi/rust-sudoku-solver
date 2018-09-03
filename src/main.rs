@@ -30,5 +30,8 @@ fn main() {
     if let Some(args) = e.render_args() {
       a.render(&args, &mut gl);
     }
+    e.mouse_cursor(|x, y| {
+      a.set_mouse_cursor_position(x, y);
+    });
   }
 }
